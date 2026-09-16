@@ -110,7 +110,7 @@ function Index() {
             <span className="font-semibold text-foreground">Business Type:</span> Small Business
           </p>
           <p>
-            <span className="font-semibold text-foreground">UEI:</span> [ADD UEI]
+            <span className="font-semibold text-foreground">UEI:</span> FSHUESZVPG29
             <span className="px-3">|</span>
             <span className="font-semibold text-foreground">CAGE:</span> [ADD CAGE]
           </p>
