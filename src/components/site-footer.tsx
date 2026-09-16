@@ -38,7 +38,7 @@ export function SiteFooter() {
           </p>
           <p>boydcontractservices.com</p>
           <p className="pt-3">NAICS: 561790 | 561720 | 561210 | 561730 | 561990</p>
-          <p>UEI: [ADD UEI]</p>
+          <p>UEI: FSHUESZVPG29</p>
           <p>CAGE: [ADD CAGE]</p>
         </div>
 

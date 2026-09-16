@@ -27,7 +27,7 @@ const businessInfo = [
   ["Business Name", "Boyd Contract Services"],
   ["Business Type", "Small Business"],
   ["SAM.gov Registration", "Registered"],
-  ["UEI", "[ADD UEI]"],
+  ["UEI", "FSHUESZVPG29"],
   ["CAGE Code", "[ADD CAGE]"],
   ["Primary Email", "dexter.boyd@boydcontractservices.com"],
   ["Website", "boydcontractservices.com"],
