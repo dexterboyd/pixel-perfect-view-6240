@@ -20,7 +20,7 @@ export function SiteFooter() {
             Facilities Support &amp; Contract Services
           </p>
           <p className="mt-4 max-w-sm text-sm text-primary-foreground/60">
-            Reliable Service. Professional Coordination. Contract-Ready Solutions.
+            Reliable Service. Contract-Ready Solutions.
           </p>
         </div>
 
