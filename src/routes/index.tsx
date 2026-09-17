@@ -1,4 +1,4 @@
-import { createFileRoute, Link } from "@tanstack/react-router";
+import { createFileRoute } from "@tanstack/react-router";
 import {
   SprayCan,
   Droplets,
@@ -62,10 +62,7 @@ function Index() {
           className="absolute inset-0 -z-10 size-full object-cover opacity-25"
         />
         <div className="mx-auto max-w-7xl px-6 pt-12 pb-16 md:pt-16 md:pb-20">
-          <p className="text-xs font-semibold uppercase tracking-[0.3em] text-accent">
-            Small Business · SAM.gov Registered
-          </p>
-          <h1 className="mt-5 max-w-4xl font-display text-4xl font-bold uppercase leading-[1.05] tracking-tight md:text-6xl">
+          <h1 className="max-w-4xl font-display text-4xl font-bold uppercase leading-[1.05] tracking-tight md:text-6xl">
             Boyd Contract Services
           </h1>
           <p className="mt-5 font-display text-xl font-semibold text-primary-foreground/90 md:text-2xl">
@@ -78,17 +75,6 @@ function Index() {
             Supporting government and commercial customers with dependable facility, building,
             grounds, and contract-support services.
           </p>
-          <div className="mt-10 flex flex-wrap gap-4">
-            <Button asChild size="lg" variant="accent">
-              <Link to="/government-contracting">
-                Government Contracting
-                <ArrowRight />
-              </Link>
-            </Button>
-            <Button asChild size="lg" variant="onDark">
-              <Link to="/contact">Contact Boyd Contract Services</Link>
-            </Button>
-          </div>
         </div>
       </section>
 
@@ -112,8 +98,7 @@ function Index() {
       <section className="mx-auto max-w-7xl px-6 pt-6 pb-16 md:pt-8 md:pb-20">
 
         <div className="max-w-2xl">
-          <p className="text-xs font-semibold uppercase tracking-[0.28em] text-accent">Services</p>
-          <h2 className="mt-4 text-3xl font-bold tracking-tight md:text-4xl">
+          <h2 className="text-3xl font-bold tracking-tight md:text-4xl">
             Facilities and support services
           </h2>
           <p className="mt-4 text-base leading-relaxed text-muted-foreground">
