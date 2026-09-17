@@ -1,6 +1,5 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import {
-  Building2,
   SprayCan,
   Droplets,
   Trees,
@@ -171,7 +170,7 @@ function Index() {
               <a href="/capability-statement.pdf" download>
                 <FileText />
                 Capability Statement
-            </a>
+              </a>
             </Button>
           </div>
         </div>
