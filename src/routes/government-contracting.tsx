@@ -95,9 +95,6 @@ function GovernmentContractingPage() {
                   Download Capability Statement
                 </a>
               </Button>
-              <Button asChild variant="outline">
-                <Link to="/contact">Contact</Link>
-              </Button>
             </div>
           </div>
         </div>
