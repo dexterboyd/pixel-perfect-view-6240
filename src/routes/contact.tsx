@@ -1,6 +1,6 @@
-import { createFileRoute, Link } from "@tanstack/react-router";
+import { createFileRoute } from "@tanstack/react-router";
 import { useState, type FormEvent } from "react";
-import { Mail, Globe, ArrowRight } from "lucide-react";
+import { Mail, Globe } from "lucide-react";
 import { PageHero } from "@/components/page-hero";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -110,21 +110,6 @@ function ContactPage() {
               </p>
             </div>
 
-            <div className="rounded-sm border border-border bg-primary p-8 text-primary-foreground">
-              <h2 className="text-lg font-bold tracking-tight">
-                Government Contracting Opportunities
-              </h2>
-              <p className="mt-3 text-sm text-primary-foreground/75">
-                Review business information, NAICS codes, and how Boyd Contract Services approaches
-                prime and subcontract requirements.
-              </p>
-              <Button asChild variant="accent" className="mt-6">
-                <Link to="/government-contracting">
-                  Government Contracting
-                  <ArrowRight />
-                </Link>
-              </Button>
-            </div>
           </div>
         </div>
       </section>
