@@ -1,7 +1,6 @@
-import { createFileRoute, Link } from "@tanstack/react-router";
+import { createFileRoute } from "@tanstack/react-router";
 import { Check } from "lucide-react";
 import { PageHero } from "@/components/page-hero";
-import { Button } from "@/components/ui/button";
 
 export const Route = createFileRoute("/capabilities")({
   head: () => ({
@@ -129,14 +128,6 @@ function CapabilitiesPage() {
                 <span className="text-sm text-muted-foreground">{item.label}</span>
               </div>
             ))}
-          </div>
-          <div className="mt-10 flex flex-wrap gap-3">
-            <Button asChild>
-              <Link to="/government-contracting">Government Contracting</Link>
-            </Button>
-            <Button asChild variant="outline">
-              <Link to="/contact">Request a Quote</Link>
-            </Button>
           </div>
         </div>
       </section>
