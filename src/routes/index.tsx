@@ -67,7 +67,7 @@ function Index() {
           height={1088}
           className="absolute inset-0 -z-10 size-full object-cover opacity-25"
         />
-        <div className="mx-auto max-w-7xl px-6 pt-20 pb-16 md:pt-24 md:pb-20">
+        <div className="mx-auto max-w-7xl px-6 pt-12 pb-16 md:pt-16 md:pb-20">
           <p className="text-xs font-semibold uppercase tracking-[0.3em] text-accent">
             Small Business · SAM.gov Registered
           </p>
@@ -81,7 +81,7 @@ function Index() {
             Reliable Service. Contract-Ready Solutions.
           </p>
           <p className="mt-8 max-w-2xl text-base leading-relaxed text-primary-foreground/75">
-            Supporting government and commercial customers with dependable facilities, building,
+            Supporting government and commercial customers with dependable facility, building,
             grounds, and contract-support services.
           </p>
           <div className="mt-10 flex flex-wrap gap-4">
@@ -115,7 +115,7 @@ function Index() {
         </div>
       </section>
 
-      <section className="mx-auto max-w-7xl px-6 pt-12 pb-16 md:pt-16 md:pb-20">
+      <section className="mx-auto max-w-7xl px-6 pt-6 pb-16 md:pt-8 md:pb-20">
 
         <div className="max-w-2xl">
           <p className="text-xs font-semibold uppercase tracking-[0.28em] text-accent">Services</p>
@@ -141,16 +141,20 @@ function Index() {
           ))}
           <article className="flex flex-col justify-between rounded-sm border border-border bg-surface p-7">
             <div>
-              <h3 className="font-display text-lg font-bold tracking-tight">Full capabilities</h3>
+              <FileText className="size-6 text-accent" />
+              <h3 className="mt-5 font-display text-lg font-bold tracking-tight">
+                View Capability Statement
+              </h3>
               <p className="mt-3 text-sm leading-relaxed text-muted-foreground">
-                Review detailed service areas and NAICS codes.
+                One-page federal capability statement with core capabilities, NAICS codes, and
+                business information.
               </p>
             </div>
             <Button asChild variant="outline" className="mt-6 self-start">
-              <Link to="/capabilities">
-                View Capabilities
+              <a href="/capability-statement.pdf" download>
+                View Capability Statement
                 <ArrowRight />
-              </Link>
+              </a>
             </Button>
           </article>
         </div>
