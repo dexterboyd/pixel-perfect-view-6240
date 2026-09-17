@@ -1,7 +1,6 @@
-import { createFileRoute, Link } from "@tanstack/react-router";
+import { createFileRoute } from "@tanstack/react-router";
 import { Check } from "lucide-react";
 import { PageHero } from "@/components/page-hero";
-import { Button } from "@/components/ui/button";
 
 export const Route = createFileRoute("/capabilities")({
   head: () => ({
