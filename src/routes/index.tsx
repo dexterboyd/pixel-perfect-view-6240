@@ -4,7 +4,6 @@ import {
   SprayCan,
   Droplets,
   Trees,
-  ClipboardList,
   ArrowRight,
   FileText,
 } from "lucide-react";
@@ -27,7 +26,7 @@ export const Route = createFileRoute("/")({
       {
         property: "og:description",
         content:
-          "Reliable Service. Professional Coordination. Contract-Ready Solutions. Facilities and building-support services for government and commercial customers.",
+          "Reliable Service. Contract-Ready Solutions. Facilities and building-support services for government and commercial customers.",
       },
     ],
   }),
@@ -55,11 +54,6 @@ const services = [
     title: "Landscaping & Grounds",
     text: "Grounds maintenance, landscaping support, lawn services, and seasonal exterior-property services.",
   },
-  {
-    icon: ClipboardList,
-    title: "Contract & Project Support",
-    text: "Project coordination, scheduling, procurement coordination, service-provider coordination, and contract-support activities.",
-  },
 ];
 
 function Index() {
@@ -73,18 +67,18 @@ function Index() {
           height={1088}
           className="absolute inset-0 -z-10 size-full object-cover opacity-25"
         />
-        <div className="mx-auto max-w-7xl px-6 py-28 md:py-36">
+        <div className="mx-auto max-w-7xl px-6 pt-20 pb-16 md:pt-24 md:pb-20">
           <p className="text-xs font-semibold uppercase tracking-[0.3em] text-accent">
             Small Business · SAM.gov Registered
           </p>
-          <h1 className="mt-6 max-w-4xl font-display text-4xl font-bold uppercase leading-[1.05] tracking-tight md:text-6xl">
+          <h1 className="mt-5 max-w-4xl font-display text-4xl font-bold uppercase leading-[1.05] tracking-tight md:text-6xl">
             Boyd Contract Services
           </h1>
           <p className="mt-5 font-display text-xl font-semibold text-primary-foreground/90 md:text-2xl">
             Facilities Support &amp; Contract Services
           </p>
           <p className="mt-3 text-sm uppercase tracking-[0.18em] text-accent">
-            Reliable Service. Professional Coordination. Contract-Ready Solutions.
+            Reliable Service. Contract-Ready Solutions.
           </p>
           <p className="mt-8 max-w-2xl text-base leading-relaxed text-primary-foreground/75">
             Supporting government and commercial customers with dependable facilities, building,
@@ -121,7 +115,8 @@ function Index() {
         </div>
       </section>
 
-      <section className="mx-auto max-w-7xl px-6 py-20 md:py-24">
+      <section className="mx-auto max-w-7xl px-6 pt-12 pb-16 md:pt-16 md:pb-20">
+
         <div className="max-w-2xl">
           <p className="text-xs font-semibold uppercase tracking-[0.28em] text-accent">Services</p>
           <h2 className="mt-4 text-3xl font-bold tracking-tight md:text-4xl">
