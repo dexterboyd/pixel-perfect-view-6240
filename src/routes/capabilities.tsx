@@ -130,14 +130,6 @@ function CapabilitiesPage() {
               </div>
             ))}
           </div>
-          <div className="mt-10 flex flex-wrap gap-3">
-            <Button asChild>
-              <Link to="/government-contracting">Government Contracting</Link>
-            </Button>
-            <Button asChild variant="outline">
-              <Link to="/contact">Request a Quote</Link>
-            </Button>
-          </div>
         </div>
       </section>
     </>
