@@ -48,7 +48,7 @@ const services = [
   {
     icon: Droplets,
     title: "Building & Exterior Services",
-    text: "Pressure washing, exterior building cleaning, and related building-support services.",
+    text: "Professional power washing, window cleaning, exterior building cleaning, and related building-support services.",
   },
   {
     icon: Trees,

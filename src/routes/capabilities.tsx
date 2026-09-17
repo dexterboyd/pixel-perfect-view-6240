@@ -46,7 +46,8 @@ const sections = [
   {
     title: "Building & Exterior Services",
     items: [
-      "Pressure washing",
+      "Professional power washing",
+      "Window cleaning",
       "Exterior building cleaning",
       "Building-support services",
       "Exterior maintenance coordination",
