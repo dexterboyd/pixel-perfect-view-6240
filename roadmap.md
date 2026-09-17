@@ -1,10 +1,10 @@
 # Boyd Contract Services — Task Roadmap
 
 ## Open
-- [ ] Government Contracting page edits (remove disclaimer, "Federal" eyebrow, Contact button, Contracting Approach; reword Prime Contracting intro; remove Subcontracting section; move Download Capability Statement button into Prime Contracting) — in progress
-- [ ] Remove "Professional Coordination." from footer tagline
-- [ ] Regenerate capability-statement.pdf with real UEI FSHUESZVPG29 (CAGE still [ADD CAGE])
-- [ ] Add professional power washing & window cleaning services to site (capabilities page, home card); hold experience claims until Dexter supplies specifics (years, property types, projects)
+- [ ] Replace [ADD CAGE] everywhere once Dexter supplies the CAGE code (blocked on user)
 
 ## Done
-- [x] UEI FSHUESZVPG29 added to footer, home strip, government-contracting table
+- [x] UEI FSHUESZVPG29 added to footer, home strip, government-contracting table, and capability-statement.pdf
+- [x] Government Contracting page: removed disclaimer, "Federal" eyebrow, Contact button, Contracting Approach, Subcontracting section; reworded Prime Contracting intro; Download Capability Statement moved into Prime Contracting
+- [x] Removed "Professional Coordination." from footer tagline
+- [x] Added professional power washing & window cleaning (home card, capabilities page, prime interests, PDF)
