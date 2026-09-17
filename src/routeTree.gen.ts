@@ -10,7 +10,6 @@
 
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
-import { Route as AboutRouteImport } from './routes/about'
 import { Route as CapabilitiesRouteImport } from './routes/capabilities'
 import { Route as ContactRouteImport } from './routes/contact'
 import { Route as GovernmentContractingRouteImport } from './routes/government-contracting'
@@ -18,11 +17,6 @@ import { Route as GovernmentContractingRouteImport } from './routes/government-c
 const IndexRoute = IndexRouteImport.update({
   id: '/',
   path: '/',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const AboutRoute = AboutRouteImport.update({
-  id: '/about',
-  path: '/about',
   getParentRoute: () => rootRouteImport,
 } as any)
 const CapabilitiesRoute = CapabilitiesRouteImport.update({
@@ -43,14 +37,12 @@ const GovernmentContractingRoute = GovernmentContractingRouteImport.update({
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
-  '/about': typeof AboutRoute
   '/capabilities': typeof CapabilitiesRoute
   '/contact': typeof ContactRoute
   '/government-contracting': typeof GovernmentContractingRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
-  '/about': typeof AboutRoute
   '/capabilities': typeof CapabilitiesRoute
   '/contact': typeof ContactRoute
   '/government-contracting': typeof GovernmentContractingRoute
@@ -58,29 +50,21 @@ export interface FileRoutesByTo {
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
-  '/about': typeof AboutRoute
   '/capabilities': typeof CapabilitiesRoute
   '/contact': typeof ContactRoute
   '/government-contracting': typeof GovernmentContractingRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths:
-    '/' | '/about' | '/capabilities' | '/contact' | '/government-contracting'
+  fullPaths: '/' | '/capabilities' | '/contact' | '/government-contracting'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/about' | '/capabilities' | '/contact' | '/government-contracting'
+  to: '/' | '/capabilities' | '/contact' | '/government-contracting'
   id:
-    | '__root__'
-    | '/'
-    | '/about'
-    | '/capabilities'
-    | '/contact'
-    | '/government-contracting'
+    '__root__' | '/' | '/capabilities' | '/contact' | '/government-contracting'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
-  AboutRoute: typeof AboutRoute
   CapabilitiesRoute: typeof CapabilitiesRoute
   ContactRoute: typeof ContactRoute
   GovernmentContractingRoute: typeof GovernmentContractingRoute
@@ -93,13 +77,6 @@ declare module '@tanstack/react-router' {
       path: '/'
       fullPath: '/'
       preLoaderRoute: typeof IndexRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/about': {
-      id: '/about'
-      path: '/about'
-      fullPath: '/about'
-      preLoaderRoute: typeof AboutRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/capabilities': {
@@ -128,7 +105,6 @@ declare module '@tanstack/react-router' {
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
-  AboutRoute: AboutRoute,
   CapabilitiesRoute: CapabilitiesRoute,
   ContactRoute: ContactRoute,
   GovernmentContractingRoute: GovernmentContractingRoute,
