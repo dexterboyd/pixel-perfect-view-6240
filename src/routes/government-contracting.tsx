@@ -33,16 +33,6 @@ const businessInfo = [
   ["Website", "boydcontractservices.com"],
 ];
 
-const primeInterests = [
-  "Facilities support",
-  "Janitorial services",
-  "Landscaping and grounds maintenance",
-  "Building and exterior services",
-  "Pressure washing",
-  "Window cleaning",
-  "General contract-support requirements",
-  "Other appropriately matched small-business opportunities",
-];
 
 function GovernmentContractingPage() {
   return (
