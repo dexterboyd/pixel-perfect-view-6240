@@ -1,6 +1,5 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import {
-  Building2,
   SprayCan,
   Droplets,
   Trees,
@@ -34,11 +33,6 @@ export const Route = createFileRoute("/")({
 });
 
 const services = [
-  {
-    icon: Building2,
-    title: "Facilities Support",
-    text: "Facilities and building-support services designed around dependable service coordination, scheduling, and contract requirements.",
-  },
   {
     icon: SprayCan,
     title: "Janitorial & Custodial",
@@ -120,7 +114,7 @@ function Index() {
         <div className="max-w-2xl">
           <p className="text-xs font-semibold uppercase tracking-[0.28em] text-accent">Services</p>
           <h2 className="mt-4 text-3xl font-bold tracking-tight md:text-4xl">
-            Contract-ready facilities and support services
+            Facilities and support services
           </h2>
           <p className="mt-4 text-base leading-relaxed text-muted-foreground">
             Services are performed directly or through coordinated qualified service providers and
@@ -177,9 +171,6 @@ function Index() {
                 <FileText />
                 Capability Statement
               </a>
-            </Button>
-            <Button asChild variant="onDark" size="lg">
-              <Link to="/contact">Contact</Link>
             </Button>
           </div>
         </div>
