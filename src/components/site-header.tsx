@@ -5,7 +5,6 @@ import { Button } from "@/components/ui/button";
 
 const nav = [
   { to: "/", label: "Home" },
-  { to: "/about", label: "About" },
   { to: "/capabilities", label: "Capabilities" },
   { to: "/government-contracting", label: "Government Contracting" },
   { to: "/contact", label: "Contact" },
